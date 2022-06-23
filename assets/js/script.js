@@ -73,15 +73,15 @@ function checkWinner(usersChoice, computerChoice) {
     } else if(computerChoice === "spock") {
         return "computer";
     }  else if(computerChoice === "scissors") {
-        return "player";;
+        return "player";
     } else if(computerChoice === "lizard") {
-        return "player";;
+        return "player";
     }
 } else if(usersChoice === "paper") {
     if(computerChoice === "rock") {
         return "player";
     } else if(computerChoice === "spock") {
-        return "player";;
+        return "player";
     }  else if(computerChoice === "scissors") {
         return "computer";
     } else if(computerChoice === "lizard") {
@@ -95,18 +95,18 @@ function checkWinner(usersChoice, computerChoice) {
     }  else if(computerChoice === "paper") {
         return "player";
     } else if(computerChoice === "lizard") {
-        return "player";;
+        return "player";
     } 
 
     } else if(usersChoice === "lizard") {
         if(computerChoice === "rock") {
-            return "computer";;
+            return "computer";
         } else if(computerChoice === "spock") {
-            return "player";;
+            return "player";
         }  else if(computerChoice === "paper") {
-            return "player";;
+            return "player";
         } else if(computerChoice === "scissors") {
-            return "computer";;
+            return "computer";
         }
 
     } else if(usersChoice === "spock") {
