@@ -16,11 +16,13 @@ function runGame(usersChoice) {
     let winner = checkWinner(usersChoice, computerChoice);
 
     if (winner === "tie") { 
-        alert("Tie");
+        movesLeft();
     } else if (winner === "player") {
         incrementScorePlayer();
+        movesLeft();
     } else if (winner === "computer") {
         incrementScoreComputer();
+        movesLeft();
     }
 
 
@@ -126,10 +128,47 @@ function incrementScorePlayer() {
 
     let oldScore = parseInt(document.getElementById("playerscore").innerText);
     document.getElementById("playerscore").innerText = ++oldScore;
-
+    
+    
 }
 
 function incrementScoreComputer() {
     let oldScore = parseInt(document.getElementById("computerscore").innerText);
     document.getElementById("computerscore").innerText = ++oldScore;
 }
+
+function movesLeft() {
+    let moves =  parseInt(document.getElementById("moves").innerText);
+    document.getElementById("moves").innerText = --moves;
+
+    if(moves === 0) {
+        gameOver();
+    }
+}
+
+function gameOver() {
+    let player = parseInt(document.getElementById("playerscore").innerText);
+    let computer = parseInt(document.getElementById("computerscore").innerText);
+
+    
+
+    modalB(player, computer);
+    
+}
+
+function modalB(player, computer) {
+var modal = document.getElementById("myModal");
+modal.style.display = "block";
+
+if (player > computer) {
+    document.getElementById("result").innerText = "Congratulations, you won the game!";
+} else if (player < computer) {
+    document.getElementById("result").innerText = "Oooooh :( You lost the game!"
+} else {
+    document.getElementById("result").innerText = "It's a tie!"
+} 
+
+}
+
+
+

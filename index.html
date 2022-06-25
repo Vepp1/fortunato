@@ -10,14 +10,17 @@
 </head>
 <body>
     <div>
-        <h1>Il Fortunato</h1>
+        <header>Il Fortunato</header>
     </div>
 
+    <section id="gaming-area">
     <div id="score">
-        <div id>You: <span id="playerscore">0</span></div>
+        <div>You: <span id="playerscore">0</span></div>
         <div id="computer">Computer: <span id="computerscore">0</span></div>
+        <div id="moves-left">Moves left:<span id="moves">5</span></div>
     </div>
 
+    
     <div class="options">
         <button data-type="rock"><img src="./assets/images/rock.png" alt="rock"></button>
         <button data-type="paper"><img src="./assets/images/toilet-paper.png" alt="paper"></button>
@@ -33,6 +36,15 @@
         <button data-type="lizard"><img src="./assets/images/iguana.png" alt="lizard"></button>
         <button data-type="spock"><img src="./assets/images/vulcan-salute.png" alt="spock"></button>
     </div>
+    </section>
+
+
+<section id="myModal" class="modal">
+  <div class="modal-content">
+    <span id="result"></span>
+    <button onClick="window.location.reload();">Restart Game</button>
+  </div>
+</section>
 
     <script src="assets/js/script.js"></script>
 </body>
