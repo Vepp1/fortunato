@@ -5,12 +5,12 @@ document.addEventListener("DOMContentLoaded", function () {
         button.addEventListener("click", function () {
             let usersChoice = this.getAttribute("data-type");
             runGame(usersChoice);
-        })
-    };
-})
+        });
+    }
+});
 
 function runGame(usersChoice) {
-    let computerOptions = ['rock', 'paper', 'scissors', 'lizard', 'spock']
+    let computerOptions = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
     let choices = Math.floor(Math.random() * 5);
     let computerChoice = computerOptions[choices];
     let winner = checkWinner(usersChoice, computerChoice);
@@ -26,15 +26,11 @@ function runGame(usersChoice) {
     }
 
 
-    changeDisplay(usersChoice, computerChoice)
+    changeDisplay(usersChoice, computerChoice);
 
     console.log(usersChoice);
     console.log(computerChoice);
     console.log(winner);
-
-
-
-
 }
 
 function changeDisplay(usersChoice, computerChoice) {
@@ -161,13 +157,13 @@ function modalB(player, computer) {
     modal.style.display = "block";
 
     if (player > computer) {
-        document.getElementById("result").innerText = "Congratulations, you won the game!";
+        document.getElementById("result").innerText = "Congratulations, you won the game!;";
     } else if (player < computer) {
-        document.getElementById("result").innerText = "Oooooh :( You lost the game!"
+        document.getElementById("result").innerText = "Oooooh :( You lost the game!";
     } else if (player === computer) {
-        document.getElementById("result").innerText = "It's a tie!"
+        document.getElementById("result").innerText = "It's a tie!";
     } else {
-        document.getElementById("result").innerText = "Ooooops! Something went wrong!"
+        document.getElementById("result").innerText = "Ooooops! Something went wrong!";
     }
 
 }

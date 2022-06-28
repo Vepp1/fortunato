@@ -205,4 +205,25 @@ button img {
     }
 }
 
+@media screen and (max-width:400px) {
+
+    #gaming-area {
+        height: 70%;
+    }
+
+    .options {
+        margin-top: 40vw;
+        margin-right: 2vw;
+        clear: both;
+    }
+
+    #display {
+        margin-left: 15vw;
+    }
+
+    #score div {
+        font-size: 60%;
+    }
+}
+
 
