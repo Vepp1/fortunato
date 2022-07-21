@@ -16,7 +16,7 @@ header {
 }
 
 #gaming-area {
-    height: 60%;
+    height: 70%;
     width: 90%;
     background-color: rgba(249, 249, 249, 0.39);
     display: block;
@@ -48,6 +48,7 @@ header {
 
 .options {
     text-align: center;
+    margin-top: 5vw;
 }
 
 
@@ -79,7 +80,7 @@ button:hover {
 
 #display {
     background-color: rgba(48, 48, 48, 0.123);
-    height: 20vh;
+    height: 25vh;
     width: 20vw;
     margin-left: 33%;
     margin-top: 5vh;
@@ -97,7 +98,8 @@ button:hover {
 #display span {
     float: left;
     margin-left: 20%;
-    margin-top: 1em;
+    margin-top:5%;
+    font-size: 3vw;
 }
 
 button img {
@@ -151,7 +153,7 @@ button img {
 @media screen and (max-width:1000px) {
 
     #gaming-area {
-        height: 60%;
+        height: 70%;
     }
 
     .options {
@@ -160,7 +162,7 @@ button img {
 
     .options button {
         width: 10vw;
-        margin-left: 0;
+        margin-left: 5%;
         height: 15vh;
         position: relative;
         margin-top: 2em;
@@ -171,17 +173,25 @@ button img {
         margin-right: 0;
     }
 
+    .options img {
+        height: 8vw;
+        width: 8vw;
+    }
+
     #display {
-        height: 30vw;
+        height: 20vw;
         width: 50vw;
         margin-left: 19vw;
     }
 
+    #display span {
+        font-size: 5vw;
+    }
+
     #display img {
-       margin-left: 15%; 
-       margin-right: 10%;
-       height: 10vw;
-       width: 10vw;
+        margin-left: 5%;
+       height: 8vw;
+       width: 8vw;
     }
 
     #display span {
@@ -205,17 +215,36 @@ button img {
 @media screen and (max-width:600px) {
 
     #gaming-area {
-        height: 60%;
+        height: 70%;
     }
 
     .options {
+        margin-left: 0;
+    }
+
+    .options button {
+        width: 15vw;
+        margin-left: 0;
         margin-top: 10vw;
-        margin-right: 30vw;
+
     }
 
     #display {
-        margin-left: 2vw;
+        height: 35vw;
+        width: 80vw;
+        margin-left: 4vw;
     }
+
+    #display img {
+        margin-left: 15%; 
+        margin-right: 15%;
+        height: 15vw;
+        width: 15vw;
+     }
+
+     #display span {
+        font-size: 8vw;
+     }
 
     .modal-content {
         width: 70%;
@@ -227,22 +256,45 @@ button img {
         margin-right: 25%;
         margin-top: 15%;
     }
+
 }
 
 @media screen and (max-width:400px) {
 
     #gaming-area {
-        height: 70%;
+        height: 90%;
+        width: 120vw;
     }
 
     .options {
-        margin-top: 40vw;
+        margin-top: 30vw;
         margin-right: 2vw;
         clear: both;
     }
+    .options button {
+        width: 20vw;
+    }
+
+    .options img {
+        height: 15vw;
+        width: 15vw;
+    }
 
     #display {
-        margin-left: 15vw;
+        margin-left: 6vw;
+        margin-top: 10vw;
+        width: 104vw;
+        height: 60vw;
+    }
+
+    #display span {
+        font-size: 10vw;
+    }
+
+    #display img {
+        height: 20vw;
+        width: 20vw;
+        margin-top: 10vw;
     }
 
     #score div {
