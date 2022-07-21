@@ -157,7 +157,7 @@ function modalB(player, computer) {
     modal.style.display = "block";
 
     if (player > computer) {
-        document.getElementById("result").innerText = "Congratulations, you won the game!;";
+        document.getElementById("result").innerText = "Congratulations, you won the game!";
     } else if (player < computer) {
         document.getElementById("result").innerText = "Oooooh :( You lost the game!";
     } else if (player === computer) {
