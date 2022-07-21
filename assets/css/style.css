@@ -129,7 +129,7 @@ button img {
     border: 1px solid #888;
     padding: 1rem;
     width: 40vw;
-    height: 8vw;
+    height: 6vw;
     text-align: left;
 }
 
@@ -248,14 +248,16 @@ button img {
 
     .modal-content {
         width: 70%;
-        height: 40vw;
+        height: 18vw;
+        text-align: center;
     }
 
     .modal-content button {
-        clear: both;
-        margin-right: 25%;
-        margin-top: 15%;
+        float: left;
+        margin-top:4vw;
+        margin-left: 22vw;
     }
+
 
 }
 
@@ -295,6 +297,10 @@ button img {
         height: 20vw;
         width: 20vw;
         margin-top: 10vw;
+    }
+
+    .modal-content {
+        height: 23vw;
     }
 
     #score div {
