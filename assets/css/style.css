@@ -79,23 +79,26 @@ button:hover {
 
 #display {
     background-color: rgba(48, 48, 48, 0.123);
-    height: 8vw;
+    height: 20vh;
     width: 20vw;
-    margin-left: 32vw;
-    margin-top: 10vh;
-    display: inline-block;
+    margin-left: 33%;
+    margin-top: 5vh;
     border: 1px solid black;
     position: absolute;
+    text-align: center;
 }
 
 #display img {
     height: 5vw;
     width: 5vw;
-    margin: 1vw 1vw 0 3vw;
-    float: left;
+    margin: 5% 10% 0 10%;
 }
 
-
+#display span {
+    float: left;
+    margin-left: 20%;
+    margin-top: 1em;
+}
 
 button img {
     height: 80%;
@@ -142,12 +145,13 @@ button img {
 .modal-content button:hover {
     background-color: rgb(0, 0, 0);
     color: #fefefe;
+    content:"Completed!";
 }
 
 @media screen and (max-width:1000px) {
 
     #gaming-area {
-        height: 70%;
+        height: 60%;
     }
 
     .options {
@@ -159,28 +163,29 @@ button img {
         margin-left: 0;
         height: 15vh;
         position: relative;
-        margin-top: 0;
+        margin-top: 2em;
     }
 
     .options2 {
         float: none;
-        margin-top: 10vw;
         margin-right: 0;
     }
 
     #display {
-        float: left;
-        position: relative;
-        height: 20vw;
+        height: 30vw;
         width: 50vw;
         margin-left: 19vw;
     }
 
     #display img {
-        height: 15vw;
-        width: 15vw;
-        margin-left: 6vw;
-        margin-top: 2vw;
+       margin-left: 15%; 
+       margin-right: 10%;
+       height: 10vw;
+       width: 10vw;
+    }
+
+    #display span {
+        margin-top: 5%;
     }
 
     button img {
@@ -195,7 +200,6 @@ button img {
 
 
 }
-
 
 
 @media screen and (max-width:600px) {
