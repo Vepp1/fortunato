@@ -148,6 +148,16 @@ button img {
     content:"Completed!";
 }
 
+#modal-content2 {
+    width: 70%;
+    height: 40%;
+    text-align: left;;
+}
+
+#modal-content2 button {
+    margin-top: 0;
+}
+
 @media screen and (max-width:1000px) {
 
     #gaming-area {
@@ -216,7 +226,12 @@ button img {
     .modal-content {
         width: 60vw;
         height: 10vw;
-        margin-top: 30%;
+        margin-top: 20%;
+    }
+
+    #modal-content2 {
+        width: 90%;
+        height: 50%;
     }
 
 
@@ -276,6 +291,11 @@ button img {
         margin-left: 22vw;
     }
 
+    #modal-content2 {
+        width: 70%;
+        height: 70%;
+    }
+
 
 }
 
@@ -315,10 +335,6 @@ button img {
         height: 20vw;
         width: 20vw;
         margin-top: 10vw;
-    }
-
-    .modal-content {
-        height: 23vw;
     }
 
     #score div {

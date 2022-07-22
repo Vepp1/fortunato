@@ -5,6 +5,7 @@
 
 document.addEventListener("DOMContentLoaded", function () {
     let buttons = document.getElementsByTagName("button");
+    modalC();
 
     for (let button of buttons) {
         button.addEventListener("click", function () {
@@ -203,4 +204,14 @@ function modalB(player, computer) {
         document.getElementById("result").innerText = "Ooooops! Something went wrong!";
     }
 
+}
+
+function modalC() {
+    var modal = document.getElementById("myModal2");
+    modal.style.display = "block";
+    var span = document.getElementsByClassName("close")[0];
+
+    span.onclick = function() {
+        modal.style.display = "none";
+      }
 }
