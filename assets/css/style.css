@@ -367,5 +367,9 @@ button img {
         margin-right: 0;
     }
 
+    #modal-content2 {
+        height: 50%;
+    }
+
 
 }
