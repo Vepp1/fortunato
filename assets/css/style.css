@@ -248,7 +248,7 @@ button img {
     }
 
     #display {
-        height: 25vw;
+        height: 40vw;
         width: 80vw;
         margin-left: 4vw;
     }
@@ -326,7 +326,7 @@ button img {
     }
 }
 
-@media screen and (max-height:500px) {
+@media screen and (max-height:600px) {
 
     #gaming-area{
         height: 85%;
@@ -349,12 +349,6 @@ button img {
     .options2 {
         float: none;
         margin-right: 0;
-    }
-
-
-
-    #display {
-        height: 40%;
     }
 
 
