@@ -151,7 +151,6 @@ button img {
 #modal-content2 {
     width: 70%;
     height: 45%;
-    text-align: left;;
 }
 
 #modal-content2 button {
@@ -340,36 +339,4 @@ button img {
     #score div {
         font-size: 60%;
     }
-}
-
-@media screen and (max-height:600px) {
-
-    #gaming-area{
-        height: 85%;
-
-    }
-
-    #score {
-        text-align: center;
-    }
-
-    #computer {
-        float: none;
-        margin-left: 10em;
-    }
-
-    #moves-left {
-        float: none;
-    }
-
-    .options2 {
-        float: none;
-        margin-right: 0;
-    }
-
-    #modal-content2 {
-        height: 50%;
-    }
-
-
 }
