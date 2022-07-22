@@ -18,10 +18,10 @@ function runGame(usersChoice) {
     if (winner === "tie") {
         movesLeft();
     } else if (winner === "player") {
-        incrementScorePlayer();
+        incrementScore("player");
         movesLeft();
     } else if (winner === "computer") {
-        incrementScoreComputer();
+        incrementScore("computer");
         movesLeft();
     }
 
@@ -120,17 +120,19 @@ function checkWinner(usersChoice, computerChoice) {
     }
 }
 
-function incrementScorePlayer() {
+function incrementScore(player) {
 
-    let oldScore = parseInt(document.getElementById("playerscore").innerText);
-    document.getElementById("playerscore").innerText = ++oldScore;
+    if (player === "player") {
+        let oldScore = parseInt(document.getElementById("playerscore").innerText);
+        document.getElementById("playerscore").innerText = ++oldScore;
+    } else {
+        let oldScore = parseInt(document.getElementById("computerscore").innerText);
+        document.getElementById("computerscore").innerText = ++oldScore;
+    }
+
+    
 
 
-}
-
-function incrementScoreComputer() {
-    let oldScore = parseInt(document.getElementById("computerscore").innerText);
-    document.getElementById("computerscore").innerText = ++oldScore;
 }
 
 function movesLeft() {
