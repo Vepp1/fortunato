@@ -1,3 +1,8 @@
+/**
+ * The main game "loop", called when the script is first loaded
+ * and after the user clicked a button
+ */
+
 document.addEventListener("DOMContentLoaded", function () {
     let buttons = document.getElementsByTagName("button");
 
@@ -8,6 +13,12 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 });
+
+/**
+ * The function to run the game, which sets the computers choice
+ * and calls other functions to check winner, increment score
+ * and reduce the moves left
+ */
 
 function runGame(usersChoice) {
     let computerOptions = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
@@ -27,11 +38,12 @@ function runGame(usersChoice) {
 
 
     changeDisplay(usersChoice, computerChoice);
-
-    console.log(usersChoice);
-    console.log(computerChoice);
-    console.log(winner);
 }
+
+/**
+ * This function was build to change the display image according
+ * to the option that was chosen by each player
+ */
 
 function changeDisplay(usersChoice, computerChoice) {
 
@@ -60,6 +72,11 @@ function changeDisplay(usersChoice, computerChoice) {
         document.getElementById("computerPNG").src = "assets/images/vulcan-salute.png";
     }
 }
+
+/**
+ * The function checkWinner, returns who won each round of the game
+ * or if it was a tie
+ */
 
 function checkWinner(usersChoice, computerChoice) {
 
@@ -120,6 +137,13 @@ function checkWinner(usersChoice, computerChoice) {
     }
 }
 
+/**
+ * The function incrementScore, changes the score according to
+ * who won the round. At first, there were two functions to increment score,
+ * one for the computer and one for the player. But I merged these two funtions
+ * into one
+ */
+
 function incrementScore(player) {
 
     if (player === "player") {
@@ -129,12 +153,13 @@ function incrementScore(player) {
         let oldScore = parseInt(document.getElementById("computerscore").innerText);
         document.getElementById("computerscore").innerText = ++oldScore;
     }
-
-    
-
-
 }
 
+/**
+ * The function movesLeft, reduces the amount of moves that the player
+ * has. Once the moves are out, it calls the function gameOver, to end 
+ * the game
+ */
 function movesLeft() {
     let moves = parseInt(document.getElementById("moves").innerText);
     document.getElementById("moves").innerText = --moves;
@@ -144,6 +169,10 @@ function movesLeft() {
     }
 }
 
+
+/**
+ * The function gameOver calls a modal to tell who was the winner.
+ */
 function gameOver() {
     let player = parseInt(document.getElementById("playerscore").innerText);
     let computer = parseInt(document.getElementById("computerscore").innerText);
@@ -154,6 +183,12 @@ function gameOver() {
 
 }
 
+
+/**
+ * This function was build to change the modal inner text, 
+ * to tell who was the winner of the game. The modal also allow 
+ * the player to restart the game
+ */
 function modalB(player, computer) {
     var modal = document.getElementById("myModal");
     modal.style.display = "block";
