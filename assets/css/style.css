@@ -225,12 +225,11 @@ button img {
     .modal-content {
         width: 60vw;
         height: 10vw;
-        margin-top: 20%;
     }
 
     #modal-content2 {
         width: 90%;
-        height: 50%;
+        height: 60%;
     }
 
 
