@@ -239,7 +239,7 @@ button img {
 @media screen and (max-width:600px) {
 
     #gaming-area {
-        height: 70%;
+        height: 80%;
     }
 
     #score div {
@@ -250,7 +250,7 @@ button img {
     }
 
     .options {
-        margin-top: 5%;
+        margin-top: 1%;
     }
 
     .options button {
@@ -261,7 +261,7 @@ button img {
     }
 
     #display {
-        height: 40vw;
+        height: 30vw;
         width: 80vw;
         margin-left: 4vw;
     }
@@ -281,12 +281,6 @@ button img {
         width: 70%;
         height: 18vw;
         text-align: center;
-    }
-
-    .modal-content button {
-        float: left;
-        margin-top:4vw;
-        margin-left: 22vw;
     }
 
     #modal-content2 {
