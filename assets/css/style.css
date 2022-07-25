@@ -26,6 +26,46 @@ header {
     border-radius: 8%;
 }
 
+.game {
+    display: none;
+}
+
+.game-button {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.game-button button {
+    height: 4vw;
+    font-size: 40%;
+    width: 20vw;
+    border-radius: 45%;
+    border: 5px solid white;
+    background-color: rgba(0, 0, 0, 0.674);
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.game-button button:hover {
+    background-color: white;
+    color:rgba(0, 0, 0, 0.674);
+}
+
+#instructions {
+    margin-top: 3vw;
+    background-color: white;
+    color:rgba(0, 0, 0, 0.674);
+    border-color: black;
+}
+
+#instructions:hover {
+    background-color: rgba(0, 0, 0, 0.674);
+    color: white;
+}
+
 #score div {
     margin: 1em 1em 0em 1em;
     font-size: 100%;

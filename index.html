@@ -17,26 +17,34 @@
     </div>
 
     <section id="gaming-area">
-        <div id="score">
-            <div>You: <span id="playerscore">0</span></div>
-            <div id="computer">Computer: <span id="computerscore">0</span></div>
-            <div id="moves-left">Moves left:<span id="moves">5</span></div>
+
+        <div class="game-button">
+            <button id="play">Play Game</button><br>
+            <button id="instructions">Instructions</button>
         </div>
 
+        <div class="game">
+            <div id="score">
+                <div>You: <span id="playerscore">0</span></div>
+                <div id="computer">Computer: <span id="computerscore">0</span></div>
+                <div id="moves-left">Moves left:<span id="moves">5</span></div>
+            </div>
 
-        <div class="options">
-            <button data-type="rock"><img src="./assets/images/rock.png" alt="rock"></button>
-            <button data-type="paper"><img src="./assets/images/toilet-paper.png" alt="paper"></button>
-            <button data-type="scissors"><img src="./assets/images/scissors.png" alt="scissors"></button>
-            <button data-type="lizard" class="options2"><img src="./assets/images/iguana.png" alt="lizard"></button>
-            <button data-type="spock" class="options2"><img src="./assets/images/vulcan-salute.png" alt="spock"></button>
-        </div>
 
-        <div id="display">
-            <div><span>You:</span> <span>Computer:</span></div>
-            <div><img id="playerPNG" src="assets/images/rock.png" alt="Your choice">
-                <img id="computerPNG" src="assets/images/toilet-paper.png" alt="computers choice">
-                </div>
+            <div class="options">
+                <button data-type="rock"><img src="./assets/images/rock.png" alt="rock"></button>
+                <button data-type="paper"><img src="./assets/images/toilet-paper.png" alt="paper"></button>
+                <button data-type="scissors"><img src="./assets/images/scissors.png" alt="scissors"></button>
+                <button data-type="lizard" class="options2"><img src="./assets/images/iguana.png" alt="lizard"></button>
+                <button data-type="spock" class="options2"><img src="./assets/images/vulcan-salute.png" alt="spock"></button>
+            </div>
+
+            <div id="display">
+                <div><span>You:</span> <span>Computer:</span></div>
+                <div><img id="playerPNG" src="assets/images/rock.png" alt="Your choice">
+                    <img id="computerPNG" src="assets/images/toilet-paper.png" alt="computers choice">
+                    </div>
+            </div>
         </div>
     </section>
 
