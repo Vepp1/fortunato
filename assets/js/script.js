@@ -6,6 +6,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     let buttons = document.getElementsByTagName("button");
     modalC();
+    playGame();
 
     for (let button of buttons) {
         button.addEventListener("click", function () {
@@ -208,10 +209,29 @@ function modalB(player, computer) {
 
 function modalC() {
     var modal = document.getElementById("myModal2");
-    modal.style.display = "block";
+    var instructions = document.getElementById("instructions");
     var span = document.getElementsByClassName("close")[0];
+
+    instructions.onclick = function() {
+        modal.style.display = "block";
+      }
 
     span.onclick = function() {
         modal.style.display = "none";
       }
 }
+
+function playGame() {
+    var game = document.getElementById("game");;
+    var buttons = document.getElementById("game-button");
+    var btn = document.getElementById("play");
+
+    btn.onclick = function() {;
+        game.style.display = "block"
+        buttons.style.display = "none";
+
+    }
+
+
+}
+

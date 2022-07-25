@@ -26,11 +26,11 @@ header {
     border-radius: 8%;
 }
 
-.game {
+#game {
     display: none;
 }
 
-.game-button {
+#game-button {
     position: absolute;
     left: 50%;
     top: 55%;
@@ -38,7 +38,7 @@ header {
     transform: translate(-50%, -50%);
 }
 
-.game-button button {
+#game-button button {
     height: 4vw;
     font-size: 40%;
     width: 20vw;
@@ -49,7 +49,7 @@ header {
     font-family: 'Press Start 2P', cursive;
 }
 
-.game-button button:hover {
+#game-button button:hover {
     background-color: white;
     color:rgba(0, 0, 0, 0.674);
 }
