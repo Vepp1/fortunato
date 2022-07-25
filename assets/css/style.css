@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&family=Press+Start+2P&display=swap');
 
 body {
-    background: url(../images/paperbackground.jpg) center center / cover no-repeat;
+    background: url(../images/spacebackground.jpg) center center / cover no-repeat;
     height: 120vh;
     font-family: 'Just Another Hand', cursive;
     font-size: 2rem;
@@ -18,22 +18,23 @@ header {
 #gaming-area {
     height: 70%;
     width: 90%;
-    background-color: rgba(249, 249, 249, 0.39);
+    background-color: rgba(78, 10, 86, 0.505);
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 5%;
+    border: 5px solid white;
+    border-radius: 8%;
 }
 
 #score div {
     margin: 1em 1em 0em 1em;
-    font-size: 80%;
-    letter-spacing: 2px;
+    font-size: 100%;
     position: relative;
     display: inline-block;
     padding: 1%;
-    border: 5px solid rgb(0, 0, 0);
-    border-radius: 50%;
+    border: 5px solid white;
+    border-radius: 10%;
+    background-color: rgba(207, 147, 204, 0.674);
 }
 
 #computer {
@@ -48,7 +49,7 @@ header {
 
 .options {
     text-align: center;
-    margin-top: 5vw;
+    margin-top: 2vw;
 }
 
 
@@ -56,7 +57,9 @@ header {
     width: 10vw;
     margin-left: 10vw;
     height: 15vh;
-    background-color: rgba(0, 0, 0, 0.068);
+    background-color: rgba(207, 147, 204, 0.674);
+    border: 5px solid white;
+    border-radius: 8%;
     position: inherit;
 }
 
@@ -71,18 +74,21 @@ header {
     margin-right: 20vw;
 }
 
-button:hover {
-    background-color: white;
-    color: black;
+.options button:hover {
+    background-color: #fefefe;
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    box-shadow: 0px 1px 0px 0px;
 }
 
 #display {
-    background-color: rgba(48, 48, 48, 0.123);
+    background-color: rgba(207, 147, 204, 0.674);
     height: 25vh;
     width: 20vw;
     margin-left: 33%;
     margin-top: 5vh;
-    border: 1px solid black;
+    border: 5px solid white;
+    border-radius: 8%;
     position: absolute;
     text-align: center;
 }
@@ -122,29 +128,30 @@ button img {
 
 
 .modal-content {
-    background-color: #fefefe;
+    background-color: rgba(241, 240, 244, 0.801);
     margin: 15% auto;
-    border: 1px solid #888;
+    border: 5px solid black;
+    border-radius: 8%;
     padding: 1rem;
     width: 40vw;
     height: 6vw;
-    text-align: left;
+    text-align: center;
 }
 
 .modal-content button {
     font-family: 'Patrick Hand SC', cursive;
     font-size: 50%;
-    background-color: #78787826;
-    color: rgb(0, 0, 0);
-    float: right;
+    width: 10%;
+    background-color: #191818d1;
+    color: white;
     margin-top: 10%;
     margin-bottom: 3em;
     overflow: hidden;
 }
 
 .modal-content button:hover {
-    background-color: rgb(0, 0, 0);
-    color: #fefefe;
+    background-color: white;
+    color: #191818d1;
     content:"Completed!";
 }
 
