@@ -212,21 +212,22 @@ function modalC() {
     var instructions = document.getElementById("instructions");
     var span = document.getElementsByClassName("close")[0];
 
-    instructions.onclick = function() {
+    instructions.onclick = function () {
         modal.style.display = "block";
-      }
+    }
 
-    span.onclick = function() {
+    span.onclick = function () {
         modal.style.display = "none";
-      }
+    }
 }
 
 function playGame() {
-    var game = document.getElementById("game");;
-    var buttons = document.getElementById("game-button");
+    var game = document.getElementsByClassName("game")[0];
+    var buttons = document.getElementsByClassName("game-button")[0];
     var btn = document.getElementById("play");
 
-    btn.onclick = function() {;
+    btn.onclick = function () {
+        ;
         game.style.display = "block"
         buttons.style.display = "none";
 
@@ -234,4 +235,3 @@ function playGame() {
 
 
 }
-

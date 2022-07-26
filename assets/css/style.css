@@ -26,11 +26,11 @@ header {
     border-radius: 8%;
 }
 
-#game {
+.game {
     display: none;
 }
 
-#game-button {
+.game-button {
     position: absolute;
     left: 50%;
     top: 55%;
@@ -38,26 +38,26 @@ header {
     transform: translate(-50%, -50%);
 }
 
-#game-button button {
+.game-button button {
     height: 4vw;
     font-size: 40%;
     width: 20vw;
-    border-radius: 45%;
+    border-radius: 10%;
     border: 5px solid white;
     background-color: rgba(0, 0, 0, 0.674);
     color: white;
     font-family: 'Press Start 2P', cursive;
 }
 
-#game-button button:hover {
+.game-button button:hover {
     background-color: white;
-    color:rgba(0, 0, 0, 0.674);
+    color: rgba(0, 0, 0, 0.674);
 }
 
 #instructions {
     margin-top: 3vw;
     background-color: white;
-    color:rgba(0, 0, 0, 0.674);
+    color: rgba(0, 0, 0, 0.674);
     border-color: black;
 }
 
@@ -142,7 +142,7 @@ header {
 #display span {
     float: left;
     margin-left: 20%;
-    margin-top:5%;
+    margin-top: 5%;
     font-size: 3vw;
 }
 
@@ -192,7 +192,7 @@ button img {
 .modal-content button:hover {
     background-color: white;
     color: #191818d1;
-    content:"Completed!";
+    content: "Completed!";
 }
 
 #modal-content2 {
@@ -208,6 +208,11 @@ button img {
 
     #gaming-area {
         height: 90%;
+    }
+
+    .game-button button {
+        height: 6vw;
+        width: 30vw;
     }
 
     #score {
@@ -228,7 +233,7 @@ button img {
     }
 
     .options button {
-        width: 10vw;
+        width: 12vw;
         margin-left: 5%;
         height: 15vh;
         position: relative;
@@ -257,8 +262,8 @@ button img {
 
     #display img {
         margin-left: 5%;
-       height: 8vw;
-       width: 8vw;
+        height: 8vw;
+        width: 8vw;
     }
 
     #display span {
@@ -289,6 +294,11 @@ button img {
         height: 80%;
     }
 
+    .game-button button {
+        height: 10vw;
+        width: 40vw;
+    }
+
     #score div {
         margin: 0;
         margin-top: 1em;
@@ -309,20 +319,20 @@ button img {
 
     #display {
         height: 30vw;
-        width: 80vw;
+        width: 77vw;
         margin-left: 4vw;
     }
 
     #display img {
-        margin-left: 15%; 
+        margin-left: 15%;
         margin-right: 15%;
         height: 10vw;
         width: 10vw;
-     }
+    }
 
-     #display span {
+    #display span {
         font-size: 5vw;
-     }
+    }
 
     .modal-content {
         width: 70%;
@@ -341,28 +351,33 @@ button img {
 @media screen and (max-width:400px) {
 
     #gaming-area {
-        height: 90%;
-        width: 120vw;
+        height: 70%;
+    }
+
+    .game-button {
+        top: 50%;
+    }
+
+    .game-button button {
+        height: 12vw;
+        width: 45vw;
     }
 
     .options {
         margin-top: 10vw;
         margin-right: 2vw;
-        clear: both;
-    }
-    .options button {
-        width: 20vw;
     }
 
-    .options img {
-        height: 15vw;
+    .options button {
         width: 15vw;
     }
 
+    .options img {
+        height: 10vw;
+        width: 10vw;
+    }
+
     #display {
-        margin-left: 6vw;
-        margin-top: 10vw;
-        width: 104vw;
         height: 50vw;
     }
 
@@ -371,8 +386,8 @@ button img {
     }
 
     #display img {
-        height: 20vw;
-        width: 20vw;
+        height: 14vw;
+        width: 14vw;
         margin-top: 10vw;
     }
 
