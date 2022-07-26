@@ -250,19 +250,18 @@ button img {
     }
 
     .options img {
-        height: 8vw;
-        width: 8vw;
+        
     }
 
     #display {
-        height: 50vw;
+        height: 30vw;
         width: 50vw;
         margin-left: 19vw;
     }
 
     #display span {
         font-size: 5vw;
-        margin-top: 20%;
+        margin-top: 5%;
     }
 
     #display img {
@@ -384,7 +383,7 @@ button img {
     }
 
     #display {
-        height: 50vw;
+        height: 40vw;
     }
 
     #display span {
@@ -394,7 +393,6 @@ button img {
     #display img {
         height: 14vw;
         width: 14vw;
-        margin-top: 10vw;
     }
 
     #score div {
