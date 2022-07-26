@@ -173,18 +173,18 @@ button img {
     border: 5px solid black;
     border-radius: 8%;
     padding: 1rem;
-    width: 40vw;
-    height: 6vw;
+    width: 40%;
+    height: 20%;
     text-align: center;
 }
 
 .modal-content button {
     font-family: 'Patrick Hand SC', cursive;
     font-size: 50%;
-    width: 10%;
+    width: 30%;
     background-color: #191818d1;
     color: white;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-bottom: 3em;
     overflow: hidden;
 }
@@ -275,8 +275,12 @@ button img {
     }
 
     .modal-content {
-        width: 60vw;
-        height: 10vw;
+        width: 50%;
+        height: 15%;
+    }
+
+    .modal-content button {
+        width: 50%;
     }
 
     #modal-content2 {
@@ -393,5 +397,10 @@ button img {
 
     #score div {
         font-size: 60%;
+    }
+
+    #modal-content2 {
+        width: 70%;
+        height: 80%;
     }
 }

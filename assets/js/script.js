@@ -6,7 +6,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     let buttons = document.getElementsByTagName("button");
     modalC();
-    playGame();
+    gameMenu();
 
     for (let button of buttons) {
         button.addEventListener("click", function () {
@@ -207,6 +207,10 @@ function modalB(player, computer) {
 
 }
 
+/**
+ * The modalC, is the modal that pops up when the player clicks
+ * on instructions.
+ */
 function modalC() {
     var modal = document.getElementById("myModal2");
     var instructions = document.getElementById("instructions");
@@ -221,7 +225,11 @@ function modalC() {
     }
 }
 
-function playGame() {
+/**
+ * The function gameMenu, gives functionatilly to the game menu buttons 
+ * Play Game and Instructions
+ */
+function gameMenu() {
     var game = document.getElementsByClassName("game")[0];
     var buttons = document.getElementsByClassName("game-button")[0];
     var btn = document.getElementById("play");
