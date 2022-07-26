@@ -2,28 +2,46 @@
 
 Papertrek is a website made for the puzzles and The Big Bang Theory fans. The goal of this website, is giving the user a challenging opponent to play a against in a variation of Rock, Paper and Scissors. The game is made of 5 moves, and once the moves are out, the one with more points win the game.
 
-![Desktop View](assets/images/desktopview_1_60.png)
+![Desktop View](assets/images/mockup.jpeg)
 
 ----
 
 ## Features 
 
-The website's paper background and handwrite fonts are meant to feel like a game that the user played as a children, as if it was written on a notebook. It's a simple and straightforward interface, and it's accessible to all kinds of users, including disabled persons and users with low experience.
+PaperTrek is a simple and well designed page. The website has a galactical theme and presents a challenging game. In it's layout it has a Game Menu page, where you can choose between reading the instructions or starting the game. On the game, the player has 5 options to choose, between: Rock, Paper, Scissors, Lizard and Spock. The option choosen both by player and computer, are showed on the display. Once the game is over, a modal pops up, telling who the winner was and also giving an option to restart the game.
 
 ### Existing Features
+
+- __Game Menu__
+
+    - The section game menu is the one the user arrives when accessing the website. This page contains 2 buttons, one to start playing and another one containing the instructions. 
+
+    ![Navigation Bar](assets/images/game_menu.png)
+
+- __Instructions__
+
+  - The instructions button pops up a modal, that teaches the player how to play the game.
+ 
+
+  ![Landing Page](assets/images/instructions.png)
 
 - __Gaming Area__
 
     - This section group all the features on the website. Here you find the buttons to play the game, the score and the display that shows the options chosen. 
 
-    ![Navigation Bar](assets/images/gamingarea_2_30.png)
+    ![Navigation Bar](assets/images/gaming_area.png)
 
-- __Modal box__
+- __Score__
 
-  - This modal box pops up once the game is over, to tell who was the winner. It also gives the option for the player to restart the game 
- 
+    - This section shows the score and the moves left. It's updated everytime the player pick a movement. 
 
-  ![Landing Page](assets/images/modal_2_60.png)
+    ![Navigation Bar](assets/images/score.png)
+
+- __Result__
+
+    - This modal pops up once the game is over. It tells who was the winner and gives and option to restart the game. 
+
+    ![Navigation Bar](assets/images/result.png)
 
 ----
 
