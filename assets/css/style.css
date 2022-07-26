@@ -90,6 +90,7 @@ header {
 .options {
     text-align: center;
     margin-top: 2vw;
+    max-height: inherit;
 }
 
 
@@ -106,6 +107,7 @@ header {
 .options img {
     height: 5vw;
     width: 5vw;
+    max-height: inherit;
 }
 
 .options2 {
@@ -123,6 +125,7 @@ header {
 
 #display {
     background-color: rgba(207, 147, 204, 0.674);
+    max-height: inherit;
     height: 25vh;
     width: 20vw;
     margin-left: 33%;
@@ -137,6 +140,7 @@ header {
     height: 5vw;
     width: 5vw;
     margin: 5% 10% 0 10%;
+    max-height: inherit;
 }
 
 #display span {
