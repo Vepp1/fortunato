@@ -96,6 +96,7 @@ header {
 
 .options button {
     width: 10vw;
+    text-align: center;
     margin-left: 10vw;
     height: 15vh;
     background-color: rgba(207, 147, 204, 0.674);
@@ -266,8 +267,8 @@ button img {
 
     #display img {
         margin-left: 5%;
-        height: 15vw;
-        width: 15vw;
+        height: 12vw;
+        width: 12vw;
     }
 
 
@@ -277,7 +278,7 @@ button img {
 
     .modal-content {
         width: 50%;
-        height: 15%;
+        height: 25%;
     }
 
     .modal-content button {
