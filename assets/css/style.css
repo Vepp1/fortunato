@@ -90,7 +90,6 @@ header {
 .options {
     text-align: center;
     margin-top: 2vw;
-    max-height: inherit;
 }
 
 
@@ -114,7 +113,7 @@ header {
 .options2 {
     float: right;
     margin-top: 10vw;
-    margin-right: 20vw;
+    margin-right: 24%;
 }
 
 .options button:hover {
@@ -207,6 +206,14 @@ button img {
 
 #modal-content2 button {
     margin-top: 0;
+}
+
+@media screen and (min-width:1300px) {
+    
+    .options2 {
+        margin-right: 23%;
+    }
+
 }
 
 @media screen and (max-width:1000px) {
