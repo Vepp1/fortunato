@@ -8,7 +8,7 @@ Papertrek is a website made for the puzzles and The Big Bang Theory fans. The go
 
 ## Features 
 
-PaperTrek is a simple and well designed page. The website has a galactical theme and presents a challenging game. In it's layout it has a Game Menu page, where you can choose between reading the instructions or starting the game. On the game, the player has 5 options to choose, between: Rock, Paper, Scissors, Lizard and Spock. The option choosen both by player and computer, are showed on the display. Once the game is over, a modal pops up, telling who the winner was and also giving an option to restart the game.
+PaperTrek is a simple and well designed page. The website has a galactical theme and presents a challenging game. In it's layout there is a Game Menu page, where you can choose between reading the instructions or starting the game. On the game, the player has 5 options to choose, between: Rock, Paper, Scissors, Lizard and Spock. The option choosen both by player and computer, are showed on the display. Once the game is over, a modal pops up, telling who the winner was and also giving an option to restart the game.
 
 ### Existing Features
 
@@ -47,7 +47,7 @@ PaperTrek is a simple and well designed page. The website has a galactical theme
 
   ## Testing 
 
-The website passed in all tests with a high performance and accessibility. The only attribute that can me improved is the image format. The images need to be converted to a modern formact.
+The website passed in all tests with a high performance, presenting no bugs.
 
 
 ### Validator Testing 
@@ -60,9 +60,9 @@ The website passed in all tests with a high performance and accessibility. The o
   - No errors were found when passing through the official [JSHint Validator](https://jshint.com/)
 
 
-### Unfixed Bugs
+### Fixed Bugs
 
-None. 
+- The display area was becoming binger than the gaming area on small screens. I solved it trying different measurements styles, such as vw and %.
 
 ----
 
@@ -81,5 +81,6 @@ The live link can be found here - https://vepp1.github.io/indians-live/index.htm
 
 ### Content 
 
-- The icons in the footer were taken from [flaticon](https://www.flaticon.com/)
+- The icons used as game buttons were taken from [flaticon](https://www.flaticon.com/)
+- The background belongs to [FreePik](https://www.freepik.com/)
 - W3Schools articles, helped me solve bugs on my project.

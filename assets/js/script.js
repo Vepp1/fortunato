@@ -3,7 +3,7 @@
  * and after the user clicked a button
  */
 
-document.addEventListener("DOMContentLoaded", function () {
+ document.addEventListener("DOMContentLoaded", function () {
     let buttons = document.getElementsByTagName("button");
     modalC();
     gameMenu();
@@ -235,8 +235,7 @@ function gameMenu() {
     var btn = document.getElementById("play");
 
     btn.onclick = function () {
-        ;
-        game.style.display = "block"
+        game.style.display = "block";
         buttons.style.display = "none";
 
     }
