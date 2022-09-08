@@ -218,11 +218,11 @@ function modalC() {
 
     instructions.onclick = function () {
         modal.style.display = "block";
-    }
+    };
 
     span.onclick = function () {
         modal.style.display = "none";
-    }
+    };
 }
 
 /**
@@ -238,7 +238,7 @@ function gameMenu() {
         game.style.display = "block";
         buttons.style.display = "none";
 
-    }
+    };
 
 
 }
