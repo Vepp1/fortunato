@@ -126,7 +126,7 @@ a {
 
 }
 
-.options button:hover {
+.container button:hover {
     background-color: #fefefe;
     transform: translate(0px, 5px);
     -webkit-transform: translate(0px, 5px);
@@ -158,8 +158,8 @@ a {
 }
 
 button img {
-    height: 80%;
-    width: 80%;
+    max-height: 80%;
+   max-width: 80%;
 }
 
 #other-media {
